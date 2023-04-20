@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping-cart-billing</title>
+ 
+</head>
+<body>
+    <h2 id="billing" style="color:red; font-size: x-large;font-weight: bold;">Billing Details</h2>
+    <form>
+        <label for="firstName">First Name:</label>
+         <input  type="text" required>
+         <label for="lastName">Last Name:</label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label for="CompanyName">Company Name</label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label for="country">Country</label>
+        <input type="text" required placeholder="India">
+        <br>
+        <br>
+        <label for="address">Street & address</label>
+        <input type="text" required placeholder="House number and street name">
+        <input type="text" required placeholder="Apartment suite unit etc">
+        <br>
+        <br>
+        <label for="town">Town/city</label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label for="state">State</label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label for="postcode">Postcode/Zip</label>
+        <select class="mandatory">
+            <option value="select pin" disabled>select pincode</option>
+            <option value="560063">560063</option>
+            <option value="560030">560030</option>
+            <option value="560034">560034</option>
+            <option value="560007">560007</option>
+            <option value="560092">560092</option>
+            <option value="560024">560024</option>
+            <option value="562106">562106</option>
+            <option value="560045">560045</option>
+            <option value="560050">560050</option>
+            <option value="560003">560003</option>
+        </select>
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="tel" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email">
+        <br>
+        <br><br>
+        <label for="create">Create an account?</label>
+        <input type="text">
+        <br><br>
+        <label for="OrderNotes">Order Notes</label>
+        <input type="text" placeholder="notes about your order" required>
+        <br>
+        <br>
+        <button type="submit" style="border-radius: 1rem; font-size: 1rem; color: green;">Submit</button>
+    </form>
+   
+</body>
+</html>
